@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeView">
+        <attr name="swipeDirection" format="integer">
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="bottomBorder" format="boolean"/>
+        <attr name="borderColor" format="color"/>
+    </declare-styleable>
+</resources>
